@@ -1,17 +1,35 @@
 header { 
-    position: absolute;
+    position: static;
     z-index: 5;
     flex: 1;
-    background:#e2e8f1;
-    }
+    background:#dadfe6;
+    flex-basis: auto;
+    justify-items: auto;
+    justify-content: center;
+}
+    
 
 header,footer{
   float:left;
   width:100%;
+  justify-items: center;
+  flex-basis: auto;
+}
+
+.flex-container {
+    flex: 1;
+    position: relative;    
+
+}
+
+body {
+    background:#dadfe6;
+
 }
 
 h1 {
     padding: 100px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -21,7 +39,3 @@ p {
  
 }
 
-.flex-container {
-    flex: 1;
-    align-self: auto;
-}
